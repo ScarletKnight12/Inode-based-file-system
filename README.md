@@ -77,7 +77,7 @@ descriptors and mode in which they are open.
 working currently) and return to the previous menu.
 
 
-| #Properties | #Django | #Flask | #FastAPI |
+| Properties | Django | Flask | FastAPI |
 | --- | --- | --- | --- |
 | Scalability | High scalability (as web nodes and persistence layer with dB are independent) | Limited scalability (can process high number of requests at a time, but not comparable to django) | Similar to flask |
 | Performance | Lower than flask | Relatively higher | Highest Performance (built over ASGI) |
