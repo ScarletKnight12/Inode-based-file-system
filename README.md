@@ -75,17 +75,3 @@ descriptors and mode in which they are open.
 10: unmount
 - On press 10: Unmount/close the disk which is current mount(in which you are
 working currently) and return to the previous menu.
-
-
-| Properties | Django | Flask | FastAPI |
-| --- | --- | --- | --- |
-| Scalability | High scalability (as web nodes and persistence layer with dB are independent) | Limited scalability (can process high number of requests at a time, but not comparable to django) | Similar to flask |
-| Performance | Lower than flask | Relatively higher | Highest Performance (built over ASGI) |
-| Community support | Larger support | Large support | Smaller community support (relatively new) |
-| Linking with Database | Has in-built ORM | Relies on third party libraries like SQLAlchemy to make database connections | Supports multiple ORM libraries |
-| Security | Provides in-built tools to prevent security problems like SQL injection | Flask APIs are not as secure due to use of multiple third-party modules | FastAPI also provides several tools to handle security and authentication specification like OAuth, OpenID connect |
-| Flexibility | Not very flexible | Most flexible | More flexible than Django |
-| Approach | Object oriented | Modular | - |
-| Architecture | MVT(Model - View - Template) | MVC(Model- View - Controller) | Can support mvc architecture |
-| Framework type | Full stack web-development framework | Micro-web framework | Minimalist web framework |
-| General advantages | Robust, can support complex database driven applications, low coupling, reusability and rapid development of applications. | Can build light-weight, flexible web applications | Cab used nested JSON and OpenAPI along with providing support for ML applications |
